@@ -121,7 +121,6 @@ def knn_stats(y_nn, distances, eps=1e-8):
 model.eval()
 with torch.no_grad():
     for i in range(len(X)):
-        print(i)
         x_i = torch.tensor(X[i]).unsqueeze(0)
         c_i = torch.tensor(C[i]).unsqueeze(0)
         mu, logvar = model.encode(x_i, c_i)
