@@ -13,7 +13,8 @@ Its underlying algorithm, however, is domain-agnostic and can be applied to any 
 ## Input data to the model
 The CVAE model uses substrate–EC number–species triples paired with experimentally measured kcat values as input instances. Substrates are embedded via [Mol2Vec](https://github.com/samoturk/mol2vec), EC numbers via [EC2Vec](https://github.com/MengLiu90/EC2Vec), and species via Node2Vec. 
 
-The file ```./Datasets/Original_data.csv``` contains all input instances used to train the CVAE model described in the paper.
+The file ```./Datasets/Original_data.csv``` contains all input instances used to train the CVAE model described in the paper. 
+The file ```./Datasets/example_data.csv``` contains example data after embedding, which is used as input to the CVAE model. 
 
 ## Train the CVAE Model for Synthetic Instance Generation
 To get trained CAVE model for synthetic data generation, simply run ```CVAE.py```, the trained model will be saved in ...
