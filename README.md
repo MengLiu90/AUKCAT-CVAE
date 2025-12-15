@@ -17,4 +17,5 @@ The file ```./Datasets/Original_data.csv``` contains all input instances used to
 The file ```./Datasets/example_data.csv``` contains example data after embedding, which is used as input to the CVAE model. 
 
 ## Train the CVAE Model for Synthetic Instance Generation
-To get trained CAVE model for synthetic data generation, simply run ```CVAE.py```, the trained model will be saved in ...
+To train the CVAE model for synthetic data generation, simply run ```CVAE.py```.
+The trained model will be saved to the ```./Trained_model``` directory.
