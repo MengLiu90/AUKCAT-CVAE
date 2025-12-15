@@ -19,3 +19,5 @@ The file ```./Datasets/example_data.csv``` contains example data after embedding
 ## Train the CVAE Model
 To train the CVAE model for synthetic data generation, simply run ```CVAE.py```.
 The trained model will be saved to the ```./Trained_model``` directory.
+
+## Generate Synthetic Data Using the Trained CVAE Model
