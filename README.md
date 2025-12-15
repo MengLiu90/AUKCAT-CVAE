@@ -16,6 +16,6 @@ The CVAE model uses substrate–EC number–species triples paired with experime
 The file ```./Datasets/Original_data.csv``` contains all input instances used to train the CVAE model described in the paper. 
 The file ```./Datasets/example_data.csv``` contains example data after embedding, which is used as input to the CVAE model. 
 
-## Train the CVAE Model for Synthetic Instance Generation
+## Train the CVAE Model
 To train the CVAE model for synthetic data generation, simply run ```CVAE.py```.
 The trained model will be saved to the ```./Trained_model``` directory.
