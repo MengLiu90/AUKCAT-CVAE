@@ -30,7 +30,7 @@ test_loader = DataLoader(TensorDataset(torch.tensor(X_test), torch.tensor(C_test
 save_dir = 'Trained_model'
 if not os.path.isdir(save_dir):
     os.mkdir(save_dir)
-save_path = os.path.join(save_dir, "cvae_w_regressor_cond_ec.pth")
+save_path = os.path.join(save_dir, "cvae_model.pth")
 
 # ----- CVAE with Auxiliary Regressor -----
 class CVAEWithRegressor(nn.Module):
