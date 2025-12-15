@@ -21,3 +21,5 @@ To train the CVAE model for synthetic data generation, simply run ```CVAE.py```.
 The trained model will be saved to the ```./Trained_model``` directory.
 
 ## Generate Synthetic Data Using the Trained CVAE Model
+To generate synthetic data points using the trained CVAE model, simply run ```CVAE_data_generation.py```. 
+The number of synthetic instances per original data point can be configured via the ```n_replicates``` parameter. The generated dataset will be saved in the ```./Synthetic_data``` folder.
