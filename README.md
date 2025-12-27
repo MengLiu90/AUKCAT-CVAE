@@ -10,7 +10,7 @@ Its underlying algorithm, however, is domain-agnostic and can be applied to any 
 6. matplotlib 3.7.2
 7. CUDA 11.1
 
-## Input data to the model
+## Input Data to the Model
 The CVAE model uses substrate–EC number–species triples paired with experimentally measured kcat values as input instances. Substrates are embedded via [Mol2Vec](https://github.com/samoturk/mol2vec), EC numbers via [EC2Vec](https://github.com/MengLiu90/EC2Vec), and species via Node2Vec. 
 
 The file ```./Datasets/Original_data.csv``` contains all input instances used to train the CVAE model described in the paper. 
